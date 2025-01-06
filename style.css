@@ -1,0 +1,44 @@
+body{
+    font-family:'Comic Sans MS',cursive,sans-serif;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.game-container{
+    margin: 50px auto;
+    padding: 20px;
+    border:2px solid #00796b;
+    border-radius:10px;
+    width:350px;
+}
+
+.category-button{
+    margin: 5px;
+    padding: 10px;
+    background-color: #4db6ac;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#animal-sounds{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+#animal-button{
+    width: 60px;
+    height: 60px;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+    background-color: #00796b;
+}
+
+#feedback{
+    margin-top: 20px;
+    font-weight:bold;
+
+}
